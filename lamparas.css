@@ -206,14 +206,13 @@ header nav a:hover{
 
 nav ul li{
     display: inline-block;
-    
 }
 
 nav ul li a{
     padding:0 15px ;
     display: block;
     line-height: 45px;
-    background-color: #252932;
+
     
 }
 
@@ -228,11 +227,12 @@ nav ul ul li{
    width: 100px;
     display: list-item;
     position: relative;
-
+    background: linear-gradient(to right, #00093c, #2d0b00);
 }
 
 nav ul ul  li a{
     font-size: 17px;
+    background: linear-gradient(to right, #00093c, #2d0b00);
 }
 
 nav ul li:hover >ul{
