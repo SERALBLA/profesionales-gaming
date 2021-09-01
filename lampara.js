@@ -19,22 +19,22 @@ $(document).ready(function(){
 var btn = document.getElementById("btn");
 
 function Funcion(){
-location.href = "lamparas-de-escritorio.html";
+location.href = "microfono.html";
 }
 function Funcion2(){
-    location.href = "lamparas-de-techo.html";
+    location.href = "teclado.html";
 }
 function Funcion3(){
-    location.href = "lamparas-de-araña.html";
+    location.href = "raton.html";
 }
 function Funcion4(){
-    location.href = "lamparas-de-pie.html";
+    location.href = "cascos.html";
 }
 function Funcion5(){
-    location.href = "lamparas-de-pared.html";
+    location.href = "monitor.html";
 }
 function Funcion6(){
-    location.href = "lamparas-de-volcan.html";
+    location.href = "webcam.html";
 }
 function Funcion9(){
     location.href = "comentarios.html";
