@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #333333;
     font-family: 'Open Sans', sans-serif;
 font-family: 'Pattaya', sans-serif;
     margin: 0;
@@ -26,6 +27,7 @@ font-family: 'Pattaya', sans-serif;
 }
 
 .texto{
+    color: #B5B5B5;
     margin-top: 20px ;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 40px;
@@ -83,7 +85,7 @@ header{
     overflow: hidden;
     background:red;
     margin-bottom: 20px;
-    background: #252932;
+    background: linear-gradient(to right, #00093c, #2d0b00);
     left: 0;
     top:0;
     z-index: 1;
@@ -107,7 +109,9 @@ header .logo{
 header nav{
     float: right;
     line-height: 100px;
+    
 }
+
 
 header nav a{
     display: inline-block;
@@ -202,6 +206,7 @@ header nav a:hover{
 
 nav ul li{
     display: inline-block;
+    
 }
 
 nav ul li a{
@@ -389,7 +394,7 @@ div.pie{
     padding: 10px;
 }
 .titulo{
-    
+    color: #ececec;
     padding-bottom:30px;
      padding-top:30px;
 }
@@ -471,4 +476,7 @@ div.galeria2 img{
 }
 .contenedor .titulo{
     text-align: center;
+}
+h2{
+    color: #d6d6d6;
 }
